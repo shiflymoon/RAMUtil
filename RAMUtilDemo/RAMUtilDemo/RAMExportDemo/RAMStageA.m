@@ -25,6 +25,12 @@
     return selfClass;
 }
 
+/**
+ 对着下面Function_Attributes_section_0函数的定义来理解，所谓宏替换是完全替换，
+ 替换完后最后的那一行正好接住(){
+ 
+ }
+ */
 RAM_FUNCTION_EXPORT(A)() {
     NSLog(@"RAMStageA:self.title %@", RAMStageA.sharedInstance.title);
     printf("\nRAMStageA:test function A");
